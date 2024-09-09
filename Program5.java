@@ -12,10 +12,10 @@ public class Program5{
         int pipeFrameGallons = 18;
         int badwagonGallons = 11;
         
-        double royaleAverage =  (((int)((((double) 286 / 9) + 0.05) *10))/10.0);
-        double koopaKingAverage = (((int)((((double) 412 / 40) + 0.05) *10))/10.0);
-        double pipeFrameAverage = (((int)((((double) 361 / 18) + 0.05) *10))/10.0);
-        double bandwagonAverage = (((int)((((double) 161 / 11) + 0.05) *10))/10.0);
+        double royaleAverage =  (((int)((((double) royaleMiles / royaleGallons) + 0.05) *10))/10.0);
+        double koopaKingAverage = (((int)((((double) koopaKingMiles / koopaKingGallons) + 0.05) *10))/10.0);
+        double pipeFrameAverage = (((int)((((double) pipeFrameMiles / pipeFrameGallons) + 0.05) *10))/10.0);
+        double bandwagonAverage = (((int)((((double) badwagonMiles / badwagonGallons) + 0.05) *10))/10.0);
         
         System.out.println("Mushroom Cup Prix Racer Average Miles/Per Gallon");
         System.out.println("Royale averaged " + royaleAverage + " m/g");
